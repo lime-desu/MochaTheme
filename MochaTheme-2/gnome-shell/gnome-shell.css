@@ -11,7 +11,7 @@
 .screenshot-ui-show-pointer-button:outlined, .screenshot-ui-type-button:outlined, .screenshot-ui-show-pointer-button:checked, .screenshot-ui-type-button:checked, .screenshot-ui-show-pointer-button:active, .screenshot-ui-type-button:active, .screenshot-ui-show-pointer-button:hover, .screenshot-ui-type-button:hover, .hotplug-notification-item:checked, .hotplug-notification-item:active, .hotplug-notification-item:hover, 
 .modal-dialog .modal-dialog-linked-button, .hotplug-notification-item, .notification-banner .notification-button, #LookingGlassDialog > #Toolbar 
 .flat.lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .flat.edit-folder-button:checked, .flat.button:checked, .flat.icon-button:checked, #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:active, .app-folder-dialog .folder-name-container .flat.edit-folder-button:active, .flat.button:active, .flat.icon-button:active, #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .flat.edit-folder-button:hover, .flat.button:hover, .flat.icon-button:hover, #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button, .app-folder-dialog .folder-name-container .flat.edit-folder-button, .flat.button, .flat.icon-button, #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked, #LookingGlassDialog > #Toolbar .lg-toolbar-button:active, .app-folder-dialog .folder-name-container .edit-folder-button:active, .button:active, .icon-button:active, #LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover, #LookingGlassDialog > #Toolbar .lg-toolbar-button, .app-folder-dialog .folder-name-container .edit-folder-button, .button, .icon-button, .modal-dialog, .screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup {
-  border: 1.5px solid #b4befe; 
+  border: 2px solid #b4befe; 
 }
 
 /*GLOBAL*/
@@ -131,7 +131,7 @@ stage {
     font-weight: bold;
     color: #cdd6f4;
     background-color: #11111b;
-    border: 1.5px solid #b4befe;
+    border: 2px solid #b4befe;
     border-radius: 8px;
     spacing: 12px;
     padding: 0px 18px;
@@ -187,7 +187,7 @@ stage {
 .osd-monitor-label {
     color: #cdd6f4;
     background-color: #11111b;
-    border: 1.5px solid #b4befe;
+    border: 2px solid #b4befe;
     border-radius: 999px;
     padding: 12px;
 }
@@ -230,7 +230,7 @@ stage {
     transition-duration: 250ms;
     margin: 4px;
     font-size: 11pt;
-    border: 1.5px solid transparent #b4befe;
+    border: 2px solid transparent #b4befe;
     border-radius: 50px;
 }
 
@@ -272,6 +272,7 @@ stage {
 #panel.lock-screen,
 #panel:overview {
     background-color: transparent;
+    border: transparent;
 }
 
 /*clock*/
@@ -1886,7 +1887,7 @@ StScrollBar StButton#hhandle:active {
 .candidate-popup-content {
     padding: 5px;
     border-radius: 12px;
-    border: 1.5px solid #b4befe;
+    border: 2px solid #b4befe;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     background-color: #11111b;
 }
@@ -2485,7 +2486,7 @@ StEntry StLabel.hint-text {
 .resize-popup {
     color: #cdd6f4;
     background-color: #11111b;
-    border: 1.5px solid #b4befe;
+    border: 2px solid #b4befe;
     border-radius: 999px;
     padding: 12px;
 }
@@ -2611,9 +2612,6 @@ StEntry StLabel.hint-text {
 
 #dash {
     margin-top: 12px;
-    /* for dash to dock border */
-    /* border: 1.5px solid #b4befe; */
-    /* border-radius: 24px; */
 }
 
 #dash .placeholder {
@@ -2636,12 +2634,12 @@ StEntry StLabel.hint-text {
 }
 
 .dash-background {
-    background-color: #1e1e2e;
+    background-color: #11111b;
     border-radius: 28px;
     padding: 12px;
     spacing: 6px;
     margin-bottom: 12px;
-    border: 1.5px solid #b4befe;
+    border: 2px solid #b4befe;
 }
 
 .dash-item-container>* {
