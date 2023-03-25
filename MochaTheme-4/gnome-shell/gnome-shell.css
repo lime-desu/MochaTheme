@@ -246,7 +246,6 @@ Gjs_ui_panelMenu_PanelMenuButton.panel-button {
 /* clock and date */
 StLabel.clock:insensitive {
   color: #b4befe !important;
-  border: 2px solid transparent #11111b !important;
 }
 
 /* app menu indicator */
@@ -274,7 +273,7 @@ StButton.panel-button {
     font-weight: bold;
     height: 2.25em;
     transition-duration: 250ms;
-    margin: 4px;
+    margin: 0.75em 0.75em 0.25em;
     font-size: 11pt;
 }
 

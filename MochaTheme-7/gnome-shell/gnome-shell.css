@@ -277,10 +277,10 @@ Gjs_status_remoteAccess_ScreenSharingIndicator.panel-button {
 Gjs_ui_panel_Panel {
   background-color: #11111b !important;
 }
+
 #panel {
-    margin: 0.75em 0.75em 0.25em;
     background-color: #11111b;
-    border-radius: 8px;
+    margin-bottom: 0.25em;
     font-weight: bold;
     font-size: 11pt;
     height: 2.50em;

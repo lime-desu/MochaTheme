@@ -279,7 +279,7 @@ Gjs_status_remoteAccess_ScreenSharingIndicator.panel-button {
     font-weight: bold;
     height: 2.25em;
     transition-duration: 250ms;
-    margin: 4px;
+    margin: 0.75em 0.75em 0.25em;
     font-size: 11pt;
 }
 

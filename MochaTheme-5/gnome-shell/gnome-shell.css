@@ -246,6 +246,7 @@ Gjs_ui_panelMenu_PanelMenuButton.panel-button {
 /* clock and date */
 StLabel.clock:insensitive {
   color: #b4befe !important;
+  border: 2px solid transparent #11111b !important;
 }
 
 /* app menu indicator */
@@ -279,7 +280,7 @@ Gjs_status_remoteAccess_ScreenSharingIndicator.panel-button {
     font-weight: bold;
     height: 2.25em;
     transition-duration: 250ms;
-    margin: 8px 6px 0px 6px;
+    margin: 0.75em 0.75em 0.25em;
     font-size: 11pt;
 }
 
@@ -297,7 +298,6 @@ Gjs_status_remoteAccess_ScreenSharingIndicator.panel-button {
     -minimum-hpadding: 6px;
     transition-duration: 150ms;
     background-color: #11111b;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.01);
     border-radius: 12px;
     padding: 3px;
     margin: 0 3px;
