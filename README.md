@@ -2,8 +2,10 @@
 
 > **Note** MochaTheme only includes Gnome Shell Theme, using Catppuccin (Lavender) colorscheme
 
-## Sreenshots:
-- [List of the following screenshots]
+## Preview:
+![MochaTheme](https://user-images.githubusercontent.com/114978689/227776424-e5d5368a-f428-4170-97fe-6288fdab6f21.gif "Catppuccin Lavender From Ohio")
+![Screenshot-Style4](https://user-images.githubusercontent.com/114978689/227846159-cb77e144-9f6f-45fd-aeef-830ce5c832c5.png "Using Aylur Widgets (Compact quick settings)")
+![Screenshot-Style4](https://user-images.githubusercontent.com/114978689/227846177-39d9a26a-11dc-46c2-981b-2b650ee077ff.png)
 
 ## Installation:
 
@@ -18,7 +20,7 @@ Assuming the MochaTheme repo is stored on `~/.local/share/themes/`
 
 **Then create a symbolic link and store it on the proper directory:**
 ```sh
-cd ~/.local/share/themes/ && ln -sv $(pwd)/MochaTheme/Mo* ../. # symlink all directories that begins with `Mo`
+cd ~/.local/share/themes/MochaTheme && ln -sv $(pwd)/Mo* ../. # symlink all directories that begins with `Mo`
 ```
 ### Applying the theme:
 
@@ -30,8 +32,11 @@ cd ~/.local/share/themes/ && ln -sv $(pwd)/MochaTheme/Mo* ../. # symlink all dir
 - Value = `MochaTheme-<number>`, `MonoTheme`, and `MonoThemeDark`
 
 ```sh
-gsettings set org.gnome.shell.extensions.user-theme name 'MochaTheme-1' # example using style1
+gsettings set org.gnome.shell.extensions.user-theme name 'MochaTheme-4' # example using style4
 ```
+
+> **Note** You can use this command for addding keybinding for changing style quickly, or even create a desktop application out of it.
+
 #### Using `GNOME Tweaks`
 
 1. Install and open GNOME Tweaks 
@@ -39,6 +44,8 @@ gsettings set org.gnome.shell.extensions.user-theme name 'MochaTheme-1' # exampl
 3. Under "*Shell*", choose the desired style.
 
 ## Updating:
+
+Since I suck at CSS, Expect some bugs that may need to update and to be fixed.
 ```sh
 git -C pull --rebase ~/.local/share/themes/MochaTheme
 ```
@@ -178,3 +185,5 @@ Thanks to this script, you can change the theme of apps by switching dark and li
 ## Uninstalling
 To remove a theme, follow all the steps above in reverse order
 </details>
+
+
