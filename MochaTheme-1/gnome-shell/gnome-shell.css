@@ -4839,14 +4839,37 @@ StWidget.focused .app-well-app-running-dot {
     padding-left: 0;
 }
 
+.quick-menu-toggle .quick-toggle {
+    min-width: auto;
+    max-width: auto;
+}
+
+.quick-menu-toggle .quick-toggle:ltr {
+    border-radius: 8px 0 0 8px;
+}
+
+.quick-menu-toggle .quick-toggle:rtl {
+    border-radius: 0 8px 8px 0;
+}
+
 .quick-menu-toggle .quick-toggle-arrow {
     transition: 0.1s;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 8px;
+}
+
+.quick-menu-toggle .quick-toggle-arrow:checked {
+    background-color: #b4befe;
+    color: #11111b;
+}
+
+.quick-menu-toggle .quick-toggle-arrow {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #cdd6f4
 }
 
 .quick-menu-toggle:hover .quick-toggle-arrow {
-    background-color: rgba(255, 255, 255, 0.05);
+    color: #cdd6f4
 }
 
 .quick-menu-toggle .quick-toggle-arrow:ltr {
