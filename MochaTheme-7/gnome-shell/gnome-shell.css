@@ -255,7 +255,8 @@ Gjs_ui_panel_AppMenuButton.panel-button {
 }
 
 /* workspace indicator widget */
-Gjs_widgets_workspaceIndicator_WorkspacesIndicator.workspace-indicator {
+Gjs_widgets_workspaceIndicator_WorkspacesIndicator.workspace-indicator,
+Gjs_extensions_workspaceIndicator_WorkspacesIndicator.workspace-indicator {
   color: #a6e3a1 !important;
 }
 
