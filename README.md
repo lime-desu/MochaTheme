@@ -47,7 +47,7 @@ gsettings set org.gnome.shell.extensions.user-theme name 'MochaTheme-4' # exampl
 
 Since I suck at CSS, Expect some bugs that may need to update and to be fixed.
 ```sh
-git -C pull --rebase ~/.local/share/themes/MochaTheme
+git -C ~/.local/share/themes/MochaTheme pull --rebase
 ```
 ## Uninstalling:
 
