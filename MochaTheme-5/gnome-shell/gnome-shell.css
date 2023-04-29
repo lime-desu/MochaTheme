@@ -4979,7 +4979,8 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .quick-toggle-menu {
-    background-color: #11111b;
+    color: #cdd6f4 !important;
+    background-color: #11111b !important;
     border-radius: 12px;
     padding: 16.5px;
     margin: 0 16.5px;
